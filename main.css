@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+header .menu {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url(./imagens/Backgroud\ Site.jpg);
+    background-size: auto;
+    background-size:cover;
+}
+
+body p {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+header {
+    padding: 16px;
+    background-color: black ;
+    color: azure;
+}
+
+header h1, 
+body h2 {
+    font-weight: normal;
+}
+
+.menu {
+    background-color: hsla(219, 79%, 66%, 0.5);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: azure;
+    text-decoration: none;
+}
+
+.container {
+    max-width: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+header .menu,
+section .brands-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands-list img  {
+    height: 200px;
+
+}
+
+.brands-list li {
+    display: flex;
+}
+
+section {
+    padding: 24px 24px;
+}
+
+section h2, p {
+    margin-bottom: 16px;
+    color: azure;
+    background-color: hsla(219, 79%, 66%, 0.5);
+}
+
+
+section p { 
+    margin-bottom: 4px;
+}
+
+section img {
+    margin-right: 16px;
+    margin-left: 32px;
+    margin-bottom: 50px;
+}
+
+.fim img {
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    margin-top: 8 px;
+}
+
+.contact-methods {
+    display: flex;
+}
+
+form input , 
+textarea {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-top: 8px;
+}
+form button  {
+    display: inline;
+    width: 120px;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+form textarea {
+    width: 340px;
+    height: 120px;
+    resize: none;
+}
+
+h4 {
+    background-color: hsla(219, 79%, 66%, 0.5);
+    color: aliceblue;
+}
+
+.social-midias img {
+    height: 34px;
+    margin-bottom: 0px;
+    margin-top: 18px;
+    
+}
+
+.social-midias li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-midias li a {
+    text-decoration: none;
+    background: transparent;
+}
+
+footer .container p ,
+.brands-list h2,
+.container h2 {
+    margin-bottom:0% ;
+}
+
+section .brands-list p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: azure;
+}
+
+section .container li {
+    color: azure;
+    display: inline ;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 26px;
+}
+
+section .container ul li a {
+    background-color: hsla(219, 79%, 66%, 0.5);
+    color :azure;
+    text-decoration:none;
+    border-radius: 10px;
+    border: 2px solid hwb(249 59% 2%);
+    -webkit-border-image:round;
+    margin-left: 24px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+section .city img {
+    width: 420px;
+    max-height:fit-content;
+    margin-top: 32px;
+    
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .city h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section .city p {
+    margin-top: 32px;
+    margin-bottom: 42px;
+}
+
+.voltar {
+    width: 12px;
+    background-attachment: scroll;
+}
+
+section .list-char h2 {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+section .list-char img {
+    width: 420px;
+    max-height:fit-content;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.list-char {
+    text-align: center;
+}
+
+.list-char h3 {
+    background-color:hsla(219, 79%, 66%, 0.5);
+    color: azure;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+
+.social-midias img {
+    margin-top: 0px;
+    height: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 32px;
+
+}
+
+.container .rede-social {
+    background-color: azure;
+
+}
+
+.aviso h4 {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+header {
+    background-image: url(./imagens/d.jpg);
+    background-size:auto ;
+    background-position: top;
+}
+
+form button {
+    border: none;
+    text-align: center
+}
+
+.container ul li a:hover {
+    background-color:hsla(219, 79%, 66%) ;
+    background-size: cover;
+    color :azure;
+    text-decoration:none;
+    border-radius: 10px;
+    border: 2px solid hwb(249 59% 2%);
+    -webkit-border-image: none ;
+    text-align: center;
+    
+}
+
+form button:hover {
+    background-color: hsla(219, 79%, 66%, 0.5);
+    color: azure;
+}
